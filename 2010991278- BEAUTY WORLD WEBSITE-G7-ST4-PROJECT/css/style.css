@@ -1,0 +1,197 @@
+
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	
+}
+.container{
+	width:100vw;
+	height:100vh;
+	
+	background-position: top;
+	background-size:cover;
+	display: flex;
+	align-items: flex-start;
+	justify-content: right;
+	background-image:url('../images/2.jpg');
+}
+.header-content{
+	
+	color:lightblue;
+	text-align: center;
+	
+	
+
+}
+.header-content h1{
+	font-size:9vmin;
+	font-family:"Copperplate Gothic";
+}
+.header-content h2{
+	font-size:5vmin;
+	font-family:"Copperplate Gothic"
+}
+.header-content h3{
+	font-size:4vmin;
+	font-family:"Copperplate Gothic"
+}
+
+
+/*products images*/
+
+.product{
+	
+		display: flex;
+	
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family:"Copperplate Gothic"
+}
+.product h1{
+	font-size:8vmin;
+
+}
+
+.card {
+	width:370px;
+	height:460px;
+	
+	border-radius: 15px;
+		
+	
+	margin:10px;
+	
+	
+}
+.card-image{
+	background-color:aqua;
+	height:250px;
+	margin-bottom: 10px;
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+
+}
+.car-1{background-image:url('../images/7.avif');width:370px;
+	height:460px;}
+.car-2{background-image:url('../images/8.avif');width:370px;
+	height:460px;}
+.car-3{background-image:url('../images/10.avif');width:370px;
+	height:460px;}
+	.car-4{background-image:url('../images/20.avif');width:370px;
+	height:460px;}
+	.car-5{background-image:url('../images/22.avif');width:370px;
+	height:460px;}
+	.car-6{background-image:url('../images/21.avif');width:370px;
+	height:460px;}
+.card h2{padding:10px;}
+.card p{padding:10px;}
+.card a{
+background-color:black;
+color:white;
+padding:15px 20px;
+display:block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+display: block;
+border-radius: 15px;
+}
+.card-image:hover{background-color:rgb(62,62,62);
+color:white;
+cursor:pointer;
+transform: scale(1.0);
+transition: all 1s ease;
+}
+
+
+
+.heading{background-color:black;width:200px; border-radius:10px;text-align:center;color:white;margin-top:20px;}
+.pp{font-size:20px;font-weight:bold;}
+
+/* contact us*/
+
+.contact{
+	
+		display: flex;
+	
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family:"Copperplate Gothic"
+}
+.contact h1{
+	font-size:8vmin;
+	
+
+}
+
+.map {
+	width:670px;
+	height:460px;
+	
+	border-radius: 15px;
+		
+	
+	margin:10px;
+	
+	
+}
+.mapcontact {
+	width:370px;
+	height:460px;
+	
+	border-radius: 15px;
+		
+	
+	margin:10px;
+	
+	
+	
+}
+.map-image{
+	background-color:aqua;
+	height:460px;
+	margin-bottom: 10px;
+	background-size: cover;
+	border-radius: 15px;
+
+}
+
+.map h2{padding:10px;}
+.map p{padding:10px;}
+
+
+
+.btn{width:100px;background-color: black;border:none;border-radius: 10px;height:30px;color:white;}
+
+/* about us */
+
+.about{
+	width:100vw;
+	height:100vh;
+	
+	background-position: top;
+	background-size:cover;
+	display: flex;
+	align-items: flex-start;
+	justify-content: right;
+	background-image:url('../images/33.avif');
+	font-family:"Copperplate Gothic"
+}
+.about-content{
+	
+	color:whitesmoke;
+	text-align: center;
+
+}
+.about-content h1{
+	font-size:8vmin;
+}
+.about-content h2{
+	font-size:5vmin;
+}
+.about-content h3{
+	font-size:4vmin;
+	text-align: justify;
+	padding: 10px;
+}
